@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/eshamster/try-test-in-docker.svg?token=iyjMkbymh2qKutWVzm5i&branch=master)](https://travis-ci.com/eshamster/try-test-in-docker)
+
 # try-test-in-docker
 
 ## License
