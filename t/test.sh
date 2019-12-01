@@ -2,10 +2,5 @@
 
 set -eux
 
-pwd
-ls
-find
-
-cd
-pwd
-ls
+cd ~/.roswell/local-projects/try-test-in-docker
+rove *.asd
