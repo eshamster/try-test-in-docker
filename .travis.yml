@@ -2,6 +2,11 @@ sudo: false
 service:
   - docker
 
+env:
+  matrix:
+    - LISP=sbcl-bin
+    - LISP=ccl-bin
+
 before_install:
   - t/build.sh
 

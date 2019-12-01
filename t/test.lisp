@@ -3,4 +3,8 @@
 (in-package :try-test-in-docker/t/test)
 
 (deftest test
-  (ok (= 1 1)))
+  (ok (= 1 1))
+  #+sbcl
+  (ok (= 2 2))
+  #-sbcl
+  (ok (= 3 3)))
