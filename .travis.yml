@@ -3,5 +3,4 @@ service:
   - docker
 
 before_install:
-  - docker build -t test ./t
-  - docker run test
+  - t/run.sh
