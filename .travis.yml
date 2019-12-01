@@ -3,4 +3,7 @@ service:
   - docker
 
 before_install:
+  - t/build.sh
+
+script:
   - t/run.sh
