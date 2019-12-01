@@ -8,7 +8,7 @@ env:
     - LISP=ccl-bin
 
 before_install:
-  - t/build.sh
+  - test-docker/build.sh
 
 script:
-  - t/run.sh
+  - test-docker/run.sh
